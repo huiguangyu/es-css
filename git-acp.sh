@@ -5,9 +5,9 @@
  then
    git add . 
    git commit -m "${msg}"
-   echo "commit ³É¹¦"
+   echo "commit success!"
  else
-   echo "ÇëÌîĞ´commit message"
+   echo "please add commit message"
  fi
  
  git pull origin master && git push origin master
